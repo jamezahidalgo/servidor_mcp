@@ -1,0 +1,10 @@
+[project]
+name = "system-utilization-mcp"
+version = "0.1.0"
+description = "MCP para conocer la utilización de un sistema"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]",
+    "psutil",
+]
